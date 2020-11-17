@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.Text {
+	height: 350px;
+	text-align: center;
+}
+.Text .text-1 {
+	padding-top: 30px;
+	line-height: 15px;
+}
+.Text .block {
+	display: flex;
+	padding: 0px 15px;
+	text-align: left;
+	justify-content: center;
+	
+}
+.Text .block .text-2 {
+	margin-right: 20px;
+	border-radius: 8px;
+	padding: 10px;
+	box-shadow: 0px 0px 8px #1ed1b2;
+	width: 275px;
+}
+.block .text-2 span {
+	color:#1ed1b2 ;
+	font-weight: bold;
+}

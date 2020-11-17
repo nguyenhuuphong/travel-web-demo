@@ -1,0 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.picture {
+	height: 350px;
+	text-align: center;
+	padding-top: 40px;
+	font-size: 12px;
+}
+img {
+	height: 150px;
+	width: 200px;
+	border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.pic-1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+.pic-1 div  {
+	margin-right: 15px;
+	border-radius: 8px;
+	font-weight: bold;
+	font-family: Boroto, sans-serif;
+	box-shadow: 0 0 1px grey; 
+	transition: all (0.3s)
+	}
+.pic-1 div:hover{
+	transform: scale(1.2);
+	border: 1px solid #1ed1b2;
+}

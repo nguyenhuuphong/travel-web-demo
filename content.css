@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.content {
+    width: 100%;
+	height: : 450px;
+	background-image: url(./picture/build.jpg);
+	color: white;
+	text-align: center;
+	background-position: 0px -250px;
+	background-size: 80%;
+}
+.content .overlay {
+	background-image: linear-gradient(to right top, #26436f, #1e3964, #162f59, #0d264e, #041d43);
+	opacity: 0.8;
+	height: 300px;
+}
+.content .overlay .content-1 {
+    padding-top: 20px;
+	}
+.icon-slide {
+	display: flex;
+	justify-content: center;
+
+}
+.icon-slide .slide {
+	flex-basis: 120px;
+	transition: all (0.4s);
+}
+.icon-slide .slide:hover {
+	color: #1ed1b2;
+	transform: scale(1.2);
+}
+.icon-slide .slide i {
+	border-radius: 50%;
+	border: 3px solid #ddd;
+	padding: 20px;
+	transition: all (0.4s);
+}
+.icon-slide .slide i:hover {
+    border: 3px solid #1ed1b2;
+    transform: scale(1.2);
+} 

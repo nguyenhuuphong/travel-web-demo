@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.search {
+	display: flex;
+	height: 60px;
+	background-color: #2e3f51;
+	justify-content: center;
+    align-items: center;
+	padding: 8px 0px;
+	line-height: 10px;
+
+}
+.search div {
+	flex-basis: 10px;
+	margin-right: 15px;
+}
+.search h1 {
+	font-size: 20px;
+	color: white;
+}
+.search p {
+	font-size: 14px;
+	color: #b9b9b9
+}
+.search input {
+	height: 25px;
+}
+.btn-3 button {
+	width:60px;
+	height:28px ;
+	background-color: #1ed1b2;
+	border: none;
+	color: white;
+}
